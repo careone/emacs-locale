@@ -1,4 +1,8 @@
 emacs-locale
 ============
 
-Emacs locale development tool and zh_CN translations
+Locale support for Emacs
+
+Currently with translations for:
+* Simplified Chinese
+* Traditional Chinese
