@@ -183,7 +183,7 @@ the buffer *Birthday-Present-for-Name*."
   (if name
       (animate-string "生日快乐, " 8 30)
       (animate-string "生日快乐" 8 30))
-  (when name (animate-string (format "%s" (capitalize！ name)) 8 40))
+  (when name (animate-string (format "%s" (capitalize name)) 8 40))
   (sit-for 1)
 
   (animate-string "你是我的阳光" 10 30)
@@ -206,3 +206,10 @@ the buffer *Birthday-Present-for-Name*."
 
 ;;; animate.el ends here
 ;; Simplified Chinese (zh_CN) localization resources for Emacs.
+;
+;; 2014-04-09 updated, by Careone: 
+;;   * removed a bad unicode ! not needed in L186,C54 which is a mistake;
+;;   * and the same mistakes need fixed for file zh_CN/lisp/play/animate.el
+;;     in package emacs-locale-zh-cn_22.3-24.3-v15, all because of a bad 
+;;     command line in translate script 'play_animate.sh' from develop package 
+;;     emacs-locale-dev_v15
