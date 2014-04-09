@@ -183,7 +183,7 @@ the buffer *Birthday-Present-for-Name*."
   (if name
       (animate-string "生日快乐, " 8 30)
       (animate-string "生日快乐" 8 30))
-  (when name (animate-string (format "%s" (capitalize！ name)) 8 40))
+  (when name (animate-string (format "%s" (capitalize name)) 8 40))
   (sit-for 1)
 
   (animate-string "你是我的阳光" 10 30)
