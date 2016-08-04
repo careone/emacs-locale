@@ -1,7 +1,7 @@
-VERSION=24.3
-DESTDIR=
-PREFIX=/usr
-PACKAGE=emacs-locale
+VERSION = 24.3
+DESTDIR =
+PREFIX = /usr
+PACKAGE = emacs-locale
 
 all:
 
